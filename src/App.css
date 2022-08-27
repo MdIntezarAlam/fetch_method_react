@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: turquoise;
+}
+
+.App>:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    margin-top: 5rem;
+}
+p{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+}
+.App>:nth-child(2) {
+    width: 90vw;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background-color: steelblue;
+    border: 1px solid gray;
+    border-radius: 2rem;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: rgb(49, 3, 254);
+}
+
+li {
+    list-style: none;
+
+}
+
+.movies {
+    min-height: 10vh;
+    padding: 5rem;
+
+}
+
+.movie {
+    /* min-height: 10vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    flex-wrap: wrap;
+    background-color: rgb(168, 168, 168);
+    margin: 10px;
+}
+
+.movies>:nth-child(1) {
+    text-align: center;
+    font-size: 19px;
+    color: black;
+}
+
+.movies>:nth-child(2) {
+    text-align: start;
+    margin-top: 10px;
+}
